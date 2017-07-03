@@ -1,0 +1,126 @@
+#auth_splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  background: #FF8A65;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#auth_splash .card {
+  min-width: 55%;
+  max-width: 50rem;
+  color: white;
+}
+
+#auth_splash .col-md-6 {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#auth_splash .col-md-6:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#auth_splash .col-md-6:nth-child(2) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 1rem 2rem 3rem 3rem;
+}
+
+#auth_splash .app_logo {
+  margin-bottom: 45%;
+}
+
+.hide {
+  display: none;
+}
+
+.capsule-full {
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.small-capsule {
+  padding: 5px 12px;
+  font-size: 0.7rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.half-capsuleL {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  margin-right: -4px !important;
+  cursor: pointer;
+}
+
+.half-capsuleR {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-left: 0 !important;
+  cursor: pointer;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.x-large-logo {
+  font-size: 10rem;
+}
+
+#goSignIn, #goSignUp {
+  cursor: pointer;
+}
+
+#goSignIn {
+  margin-right: 1rem;
+}
+
+#goSignIn.inactive , #goSignUp.inactive {
+  color: grey;
+}
+
+.spacer {
+  padding-top: 10%;
+  display: block;
+}
+
+#auth_splash form {
+  padding-top: 5%;
+}
+
+label {
+  margin-bottom: 0rem;
+}
